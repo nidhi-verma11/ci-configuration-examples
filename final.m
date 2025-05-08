@@ -1,7 +1,7 @@
 clear all;
 
 %% Step 1: Load the CSV File
-csvFile = "C:\Users\Nidhi Verma\Desktop\Alzheimer detection project\oasis_cross-sectional.csv"; 
+csvFile = 'oasis_cross-sectional.csv'; 
 csvData = readtable(csvFile, 'VariableNamingRule', 'preserve');
 disp('CSV file loaded successfully.');
 disp('Preview of the CSV file:');
